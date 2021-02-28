@@ -1,0 +1,18 @@
+{
+  "name": "Work-Life Balance",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Helps bring some balance into our life",
+  "icons": {
+    "128": "code.png"
+  },
+  "browser_action": {
+    "default_icon": "code.png",
+    "default_title": "Set up a reminder for that well deserved break...",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["alarms", "notifications"]
+}
